@@ -17,7 +17,7 @@ ui <- navbarPage(
     "Soccer Data Science Final Project",
     tabPanel("Discussion",
              titlePanel("Data Sources Discussion"),
-             h3("Data Source 1"),
+             h3("Data Source 1: StatsBomb"),
              p("This is Data Source 1"),
              h3("Data Source 2"),
              p("This is Data Source 2")),
@@ -33,7 +33,7 @@ ui <- navbarPage(
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
-    # I dont think I need to isnert anything here
+    # I don't think I need to insert anything here
 }
 
 # Run the application 
